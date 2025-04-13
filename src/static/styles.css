@@ -89,6 +89,14 @@ section h3 {
   background-color: #e3f2fd; /* Light blue background */
   color: #0d47a1; /* Dark blue text */
   border: 1px solid #90caf9; /* Border matching the background */
+  display: flex;
+  align-items: center;
+}
+
+.activity-card ul li::before {
+  content: "👤"; /* Add an icon before each participant */
+  margin-right: 8px;
+  color: #0d47a1;
 }
 
 .form-group {
