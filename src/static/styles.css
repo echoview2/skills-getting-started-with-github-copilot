@@ -77,13 +77,18 @@ section h3 {
 .activity-card ul {
   margin-top: 10px;
   padding-left: 20px;
-  list-style-type: disc;
-  color: #555;
+  list-style-type: none; /* Remove bullet points */
+  color: #444; /* Change text color */
 }
 
 .activity-card ul li {
   margin-bottom: 5px;
   font-size: 14px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #e3f2fd; /* Light blue background */
+  color: #0d47a1; /* Dark blue text */
+  border: 1px solid #90caf9; /* Border matching the background */
 }
 
 .form-group {
